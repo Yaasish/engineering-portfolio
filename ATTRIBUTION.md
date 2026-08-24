@@ -10,6 +10,8 @@ This portfolio separates individually attributable work from collaborative work 
 - The submitted IMAT manuscript lists Yasamin Shahbazi as first author and her supervisor as second author.
 - The portfolio claims submission only. Acceptance and publication remain unverified.
 - No physical synthesis or experimental validation is claimed.
+- The public Java file is a solver-independent manifest curated from Yasamin Shahbazi's private COMSOL export. It is not a runnable model or a substitute for convergence evidence.
+- The raw COMSOL history, model file, cached solutions, and machine-specific paths are excluded.
 
 ### Hyperelastic ABS UMAT and auxetic model
 
@@ -31,4 +33,3 @@ Load-cell testing, the larger Arduino/LabVIEW testing-machine workflow, and some
 ## Employer work
 
 No employer source code, simulation model, product image, customer information, internal metric, or non-public company detail is included.
-

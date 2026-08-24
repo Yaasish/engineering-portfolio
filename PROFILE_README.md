@@ -8,7 +8,7 @@ I am a computational mechanics engineer and technical project lead working acros
 
 ## Featured work
 
-- [pH-sensitive hydrogel multiphysics model](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/01-hydrogel-multiphysics)
+- [Custom pH-sensitive hydrogel multiphysics model, sanitized equations, and audit](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/01-hydrogel-multiphysics)
 - [Abaqus UMAT and auxetic ABS simulation](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/02-abaqus-umat-auxetic)
 - [Arduino ultrasonic strain prototype](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/03-ultrasonic-strain)
 

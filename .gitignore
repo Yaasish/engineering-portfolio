@@ -17,6 +17,7 @@
 *.sim
 *.sta
 *.stt
+*.class
 
 # Local environments and caches
 .DS_Store
@@ -32,4 +33,3 @@ private/
 raw/
 *.docx
 *.pdf
-

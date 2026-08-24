@@ -4,18 +4,20 @@ Computational Mechanics Engineer | Medical Device R&D | Technical Project & Oper
 
 [LinkedIn](https://www.linkedin.com/in/yasaminshahbazi/) | [Email](mailto:yasaminshahbazzi@gmail.com) | Tehran, Iran | Open to relocation to Spain
 
-I work across finite element analysis, CFD, multiphysics modelling, computational biomechanics, and cross-functional engineering delivery. My strongest projects combine first-principles modelling with practical prototyping, careful validation, and clear technical communication.
+I work across finite element analysis, CFD, multiphysics modelling, computational biomechanics, and cross-functional engineering delivery. My strongest projects combine first-principles modelling with practical prototyping, validation-aware analysis, and clear technical communication.
 
 ## Selected engineering work
 
-### 1. Transient multiphysics modelling of a pH-sensitive hydrogel sensor
+### 1. Custom finite-strain modelling of a pH-sensitive hydrogel sensor
 
 [View the case study](projects/01-hydrogel-multiphysics/README.md)
 
 <img src="assets/hydrogel/transient-displacement-by-ph.png" alt="Transient hydrogel displacement at pH 5 to 8" width="720">
 
-- Built a fully coupled electro-chemo-mechanical model in COMSOL Multiphysics.
-- Studied transient swelling over 800 seconds after changing the surrounding solution from pH 4 to pH 5-8.
+- Independently implemented a finite-strain electro-chemo-mechanical model in COMSOL using custom constitutive variables and weak-form PDEs.
+- Coupled a hyperelastic network, Flory-Huggins and ionic swelling stresses, three-species Nernst-Planck transport, Poisson electrostatics, and electrical traction.
+- Published a [sanitized equation manifest](projects/01-hydrogel-multiphysics/code/HydrogelModelDefinition.java) with an explicit [technical audit](projects/01-hydrogel-multiphysics/MODEL_AUDIT.md).
+- Studied transient swelling in a wider graduate investigation after changing the surrounding solution from pH 4 to pH 5-8.
 - Extended the model to compression and tension loading and evaluated displacement, ion concentration, volume change, electric potential, and resistance trends.
 - Benchmarked the computational behaviour against published literature; no experimental validation is claimed.
 
@@ -49,7 +51,7 @@ I work across finite element analysis, CFD, multiphysics modelling, computationa
 
 ## Technical toolkit
 
-**Simulation:** Abaqus/Standard, COMSOL Multiphysics, finite element analysis, CFD, fluid-structure interaction, heat transfer, contact mechanics, large deformation
+**Simulation:** Abaqus/Standard, COMSOL Multiphysics, finite element analysis, weak-form PDEs, coupled-field modelling, CFD, fluid-structure interaction, heat transfer, contact mechanics, large deformation
 
 **Programming and engineering tools:** Fortran, MATLAB, Arduino, LabVIEW, Siemens NX, Excel
 
@@ -65,4 +67,3 @@ I work across finite element analysis, CFD, multiphysics modelling, computationa
 This repository contains sanitized university work and portfolio reconstructions only. It intentionally excludes confidential employer models, product information, solver databases, personal photographs, and unverified publication claims.
 
 See [Attribution and public-scope notes](ATTRIBUTION.md) for the ownership decisions behind the selected projects.
-

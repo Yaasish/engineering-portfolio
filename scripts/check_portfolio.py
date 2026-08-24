@@ -9,9 +9,10 @@ from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT_SUFFIXES = {".md", ".py", ".for", ".ino", ".yml", ".yaml", ".svg", ""}
+TEXT_SUFFIXES = {".md", ".py", ".java", ".for", ".ino", ".yml", ".yaml", ".svg", ""}
 EXCLUDED_SUFFIXES = {
     ".cae",
+    ".class",
     ".docx",
     ".inp",
     ".jnl",
@@ -29,6 +30,14 @@ FORBIDDEN_TEXT = {
     "recognised by the ceo",
     "credited by the ceo",
     "saved approximately one month",
+    "modelutil.create",
+    "v32-marcombe.mph",
+    "v32_marcombe.java",
+}
+
+REQUIRED_PUBLIC_FILES = {
+    Path("projects/01-hydrogel-multiphysics/code/HydrogelModelDefinition.java"),
+    Path("projects/01-hydrogel-multiphysics/MODEL_AUDIT.md"),
 }
 
 MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
@@ -44,6 +53,14 @@ def check_excluded_files(files: list[Path]) -> list[str]:
         f"excluded artefact committed: {path.relative_to(ROOT)}"
         for path in files
         if path.suffix.lower() in EXCLUDED_SUFFIXES
+    ]
+
+
+def check_required_files() -> list[str]:
+    return [
+        f"required public artefact missing: {path}"
+        for path in sorted(REQUIRED_PUBLIC_FILES)
+        if not (ROOT / path).is_file()
     ]
 
 
@@ -97,6 +114,7 @@ def check_links(files: list[Path]) -> list[str]:
 def main() -> int:
     files = iter_files()
     errors = []
+    errors.extend(check_required_files())
     errors.extend(check_excluded_files(files))
     errors.extend(check_private_text(files))
     errors.extend(check_links(files))
@@ -112,4 +130,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-
