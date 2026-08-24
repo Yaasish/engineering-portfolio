@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470" role="img" aria-labelledby="title desc">
+  <title id="title">Human-in-the-loop distributor qualification workflow</title>
+  <desc id="desc">Public evidence enters a staging queue, then passes through identity resolution, qualification, contact validation, human approval, and an audited master. Uncertain and rejected records are diverted before promotion.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F4F8FC"/>
+      <stop offset="1" stop-color="#E9F2F8"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#41657A"/>
+    </marker>
+    <style>
+      .title { font: 700 29px Arial, sans-serif; fill: #17384A; }
+      .subtitle { font: 400 15px Arial, sans-serif; fill: #526B79; }
+      .box-title { font: 700 16px Arial, sans-serif; fill: #FFFFFF; }
+      .box-copy { font: 400 13px Arial, sans-serif; fill: #294A5B; }
+      .box-copy-light { font: 400 13px Arial, sans-serif; fill: #FFFFFF; }
+      .branch-title { font: 700 15px Arial, sans-serif; fill: #603B22; }
+      .footer { font: 600 14px Arial, sans-serif; fill: #35586A; }
+      .arrow { stroke: #41657A; stroke-width: 2.2; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="470" rx="22" fill="url(#background)"/>
+  <text x="48" y="52" class="title">Human-in-the-loop distributor qualification</text>
+  <text x="48" y="79" class="subtitle">Evidence is staged and checked before any record can reach the approved master.</text>
+
+  <g transform="translate(45 125)">
+    <rect width="150" height="105" rx="13" fill="#2F6F8F"/>
+    <text x="75" y="32" text-anchor="middle" class="box-title">Public evidence</text>
+    <text x="75" y="59" text-anchor="middle" class="box-copy-light">Official sources</text>
+    <text x="75" y="79" text-anchor="middle" class="box-copy-light">and public records</text>
+  </g>
+
+  <path d="M195 178 H235" class="arrow"/>
+  <g transform="translate(245 125)">
+    <rect width="150" height="105" rx="13" fill="#3F7E9C"/>
+    <text x="75" y="32" text-anchor="middle" class="box-title">Staging queue</text>
+    <text x="75" y="59" text-anchor="middle" class="box-copy-light">No direct write</text>
+    <text x="75" y="79" text-anchor="middle" class="box-copy-light">to the master</text>
+  </g>
+
+  <path d="M395 178 H435" class="arrow"/>
+  <g transform="translate(445 125)">
+    <rect width="170" height="105" rx="13" fill="#347A78"/>
+    <text x="85" y="31" text-anchor="middle" class="box-title">Identity resolution</text>
+    <text x="85" y="58" text-anchor="middle" class="box-copy-light">Normalize names,</text>
+    <text x="85" y="78" text-anchor="middle" class="box-copy-light">domains and profiles</text>
+  </g>
+
+  <path d="M615 178 H655" class="arrow"/>
+  <g transform="translate(665 125)">
+    <rect width="170" height="105" rx="13" fill="#427B56"/>
+    <text x="85" y="31" text-anchor="middle" class="box-title">Qualification gates</text>
+    <text x="85" y="58" text-anchor="middle" class="box-copy-light">Fit, evidence, conflict</text>
+    <text x="85" y="78" text-anchor="middle" class="box-copy-light">and manufacturer checks</text>
+  </g>
+
+  <path d="M835 178 H875" class="arrow"/>
+  <g transform="translate(885 125)">
+    <rect width="145" height="105" rx="13" fill="#596F9B"/>
+    <text x="72.5" y="31" text-anchor="middle" class="box-title">Contact QA</text>
+    <text x="72.5" y="58" text-anchor="middle" class="box-copy-light">Current role and</text>
+    <text x="72.5" y="78" text-anchor="middle" class="box-copy-light">person-specific route</text>
+  </g>
+
+  <path d="M1030 178 H1060" class="arrow"/>
+  <g transform="translate(1070 125)">
+    <rect width="90" height="105" rx="13" fill="#2E6755"/>
+    <text x="45" y="30" text-anchor="middle" class="box-title">Approved</text>
+    <text x="45" y="50" text-anchor="middle" class="box-title">master</text>
+    <text x="45" y="77" text-anchor="middle" class="box-copy-light">Audited</text>
+  </g>
+
+  <path d="M750 230 V292" class="arrow"/>
+  <g transform="translate(635 295)">
+    <rect width="230" height="78" rx="12" fill="#FFF4D6" stroke="#C98A2E" stroke-width="2"/>
+    <text x="115" y="28" text-anchor="middle" class="branch-title">Review hold</text>
+    <text x="115" y="53" text-anchor="middle" class="box-copy">Incomplete or conflicting evidence</text>
+  </g>
+
+  <path d="M530 230 V270 H468 V292" class="arrow"/>
+  <g transform="translate(365 295)">
+    <rect width="205" height="78" rx="12" fill="#FBE8E5" stroke="#B85C4A" stroke-width="2"/>
+    <text x="102.5" y="28" text-anchor="middle" class="branch-title">Duplicate / reject log</text>
+    <text x="102.5" y="53" text-anchor="middle" class="box-copy">Preserved for auditability</text>
+  </g>
+
+  <rect x="45" y="409" width="1115" height="34" rx="9" fill="#D9EAF1"/>
+  <text x="602.5" y="431" text-anchor="middle" class="footer">Synthetic portfolio reconstruction • no private records • no automated outreach</text>
+</svg>

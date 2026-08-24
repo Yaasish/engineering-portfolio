@@ -12,5 +12,6 @@ I am a computational and R&D engineer working across medical-device innovation, 
 - [Custom pH-sensitive hydrogel multiphysics model, sanitized equations, and audit](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/01-hydrogel-multiphysics)
 - [Abaqus UMAT and auxetic ABS simulation](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/02-abaqus-umat-auxetic)
 - [Arduino ultrasonic strain prototype](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/03-ultrasonic-strain)
+- [AI-assisted distributor qualification system with synthetic data and tested QA](https://github.com/Yaasish/engineering-portfolio/tree/main/projects/04-distributor-qualification)
 
 [LinkedIn](https://www.linkedin.com/in/yasaminshahbazi/) | [Email](mailto:yasaminshahbazzi@gmail.com)

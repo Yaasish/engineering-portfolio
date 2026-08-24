@@ -1,0 +1,11 @@
+company_name,contact_name,current_title,function,professional_profile,work_email,professional_phone,role_current,validation_status,approval,source_url,notes
+Asteria Clinical Supply,Mira Chen,Commercial Director,Sales / Commercial,https://professional.example/in/mira-chen,mira.chen@asteria.example,N/A,Yes,Verified,Approved,https://asteria.example/team,Synthetic named professional contact
+Asteria Clinical Supply Ltd,Mira Chen,Commercial Director,Sales / Commercial,https://professional.example/in/mira-chen,mira.chen@asteria.example,N/A,Yes,Verified,Approved,https://asteria.example/leadership,Synthetic duplicate contact
+Northbridge MedTech Distribution,Leo Marin,Partnerships Lead,Business Development / Partnerships,N/A,leo.marin@northbridge.example,N/A,Yes,Verified,Approved,https://northbridge.example/team,Synthetic person-specific email
+Northbridge MedTech Distribution,Support Desk,Customer Support,Other,N/A,info@northbridge.example,N/A,Yes,Verified,Pending,https://northbridge.example/contact,Synthetic generic route that must not count as reachable
+Lattice Surgical Supply,Elena Rossi,Product Manager,Product / Category,https://professional.example/in/elena-rossi,N/A,N/A,Yes,Verified,Pending,https://lattice.example/team,Synthetic qualified contact awaiting approval
+Cedarline Healthcare Partners,Samir Noor,Managing Director,Owner / Executive,https://professional.example/in/samir-noor,N/A,N/A,Yes,Verified,Pending,https://cedarline.example/team,Synthetic contact held because company is under review
+Meridian Device Works,Eva Stone,Sales Director,Sales / Commercial,https://professional.example/in/eva-stone,N/A,N/A,Yes,Verified,Pending,https://meridian.example/team,Synthetic contact linked to a rejected company
+Asteria Clinical Supply,Dana Park,Operations Manager,Procurement / Operations,N/A,N/A,N/A,Yes,Verified,Pending,https://asteria.example/team,Synthetic missing-route test
+Unknown Medical Route,Alex Roe,Director,Owner / Executive,https://professional.example/in/alex-roe,N/A,N/A,Yes,Verified,Pending,https://unknown.example/team,Synthetic orphan-company test
+Northbridge MedTech Distribution,Mina Ellis,Regional Sales Manager,Sales / Commercial,N/A,N/A,+12025550171,Yes,Verified,Approved,https://northbridge.example/leadership,Synthetic person-specific professional phone

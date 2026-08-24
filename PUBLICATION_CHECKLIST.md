@@ -19,6 +19,16 @@ This repository is the public engineering portfolio. Use this checklist before f
 - Complete mesh and time-step convergence checks before publishing a reproducibility claim.
 - Regenerate figures from the cleaned model before describing the public source as a result-reproduction package.
 
+## Distributor-system release gates
+
+- Publish synthetic `.example` records only; never copy rows from the live spreadsheet or private exports.
+- Keep the employer, live spreadsheet URL or ID, automation identifier, product criteria, competitors, target markets, source queries, and contact routes private.
+- Describe the Python code as a sanitized reconstruction, not the private live implementation.
+- Attribute the operational system as AI-assisted and distinguish Yasamin's workflow ownership from automated research and implementation work.
+- Date every aggregate deployment metric and do not imply that it updates continuously.
+- Do not claim hours saved until a comparable manual baseline and review-time sample have been recorded.
+- Run the synthetic end-to-end tests and privacy checker before publishing.
+
 ## Make the links useful for applications
 
 1. Pin the portfolio repository on the GitHub profile.
@@ -31,4 +41,4 @@ This repository is the public engineering portfolio. Use this checklist before f
 
 - Simulation or computational-mechanics role: hydrogel, UMAT/auxetic, ultrasonic prototype.
 - Biomedical or medical-device R&D role: hydrogel, ultrasonic prototype, UMAT/auxetic.
-- Product, project, or engineering-operations role: portfolio homepage first, followed by the project that best demonstrates structured problem solving.
+- Product, project, innovation, or engineering-operations role: distributor qualification, hydrogel, ultrasonic prototype, UMAT/auxetic.

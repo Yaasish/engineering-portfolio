@@ -23,5 +23,13 @@ jobs:
           java -cp "$RUNNER_TEMP/hydrogel-model" portfolio.hydrogel.HydrogelModelDefinition
       - name: Run strain-analysis tests
         run: python -m unittest discover -s projects/03-ultrasonic-strain/tests -v
+      - name: Run distributor-pipeline tests
+        run: python -m unittest discover -s projects/04-distributor-qualification/tests -v
+      - name: Run synthetic distributor workflow
+        run: >-
+          python projects/04-distributor-qualification/src/distributor_pipeline.py
+          --companies projects/04-distributor-qualification/data/companies.synthetic.csv
+          --contacts projects/04-distributor-qualification/data/contacts.synthetic.csv
+          --output-dir "$RUNNER_TEMP/distributor-demo"
       - name: Check links, privacy, and excluded artefacts
         run: python scripts/check_portfolio.py

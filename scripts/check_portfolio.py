@@ -2,14 +2,27 @@
 
 from __future__ import annotations
 
+import csv
 import re
 import sys
 from pathlib import Path
-from urllib.parse import unquote
+from urllib.parse import unquote, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1]
-TEXT_SUFFIXES = {".md", ".py", ".java", ".for", ".ino", ".yml", ".yaml", ".svg", ""}
+TEXT_SUFFIXES = {
+    ".csv",
+    ".json",
+    ".md",
+    ".py",
+    ".java",
+    ".for",
+    ".ino",
+    ".yml",
+    ".yaml",
+    ".svg",
+    "",
+}
 EXCLUDED_SUFFIXES = {
     ".cae",
     ".class",
@@ -33,11 +46,19 @@ FORBIDDEN_TEXT = {
     "modelutil.create",
     "v32-marcombe.mph",
     "v32_marcombe.java",
+    "docs.google.com/spreadsheets/d/",
+    "weekly-live-distributor-discovery",
+    "files-mentioned-by-the-user-distributor",
 }
 
 REQUIRED_PUBLIC_FILES = {
+    Path("assets/distributor-qualification/workflow.svg"),
     Path("projects/01-hydrogel-multiphysics/code/HydrogelModelDefinition.java"),
     Path("projects/01-hydrogel-multiphysics/MODEL_AUDIT.md"),
+    Path("projects/04-distributor-qualification/data/companies.synthetic.csv"),
+    Path("projects/04-distributor-qualification/data/contacts.synthetic.csv"),
+    Path("projects/04-distributor-qualification/src/distributor_pipeline.py"),
+    Path("projects/04-distributor-qualification/tests/test_distributor_pipeline.py"),
 }
 
 MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
@@ -75,6 +96,31 @@ def check_private_text(files: list[Path]) -> list[str]:
                 errors.append(
                     f"private or stale text in {path.relative_to(ROOT)}: {forbidden!r}"
                 )
+    return errors
+
+
+def check_synthetic_distributor_data() -> list[str]:
+    errors: list[str] = []
+    data_dir = ROOT / "projects/04-distributor-qualification/data"
+    for path in sorted(data_dir.glob("*.csv")):
+        with path.open(newline="", encoding="utf-8-sig") as handle:
+            for line_number, row in enumerate(csv.DictReader(handle), start=2):
+                for field, raw_value in row.items():
+                    value = (raw_value or "").strip().casefold()
+                    if value.startswith(("http://", "https://")):
+                        host = (urlsplit(value).hostname or "").rstrip(".")
+                        if not host.endswith(".example"):
+                            errors.append(
+                                f"non-synthetic URL in {path.relative_to(ROOT)}:"
+                                f"{line_number} field {field}"
+                            )
+                    if "@" in value and not value.rsplit("@", 1)[-1].endswith(
+                        ".example"
+                    ):
+                        errors.append(
+                            f"non-synthetic email in {path.relative_to(ROOT)}:"
+                            f"{line_number} field {field}"
+                        )
     return errors
 
 
@@ -117,6 +163,7 @@ def main() -> int:
     errors.extend(check_required_files())
     errors.extend(check_excluded_files(files))
     errors.extend(check_private_text(files))
+    errors.extend(check_synthetic_distributor_data())
     errors.extend(check_links(files))
 
     if errors:

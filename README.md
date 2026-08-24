@@ -6,7 +6,7 @@ Computational & R&D Engineer | Medical-Device Innovation | Technical Product & O
 
 I use computational mechanics and multiphysics modelling to support medical-device and advanced-engineering product development. My work connects first-principles simulation, instrumentation and prototyping, validation-aware analysis, automation, and cross-functional delivery—positioning me for industrial R&D, product-development, and technical-innovation roles.
 
-## Selected engineering work
+## Selected engineering and technical-systems work
 
 ### 1. Custom finite-strain modelling of a pH-sensitive hydrogel sensor
 
@@ -42,6 +42,18 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 - Measured specimen length through staged loading and calculated Green-Lagrange strain.
 - Reconstructed the public firmware and analysis workflow with explicit calibration and uncertainty limitations.
 
+### 4. AI-assisted distributor discovery and qualification system
+
+[View the sanitized case study, synthetic data, and tested pipeline](projects/04-distributor-qualification/README.md)
+
+<img src="assets/distributor-qualification/workflow.svg" alt="Human-in-the-loop distributor qualification workflow" width="800">
+
+- Defined qualification, identity-resolution, evidence, contactability, approval, and QA rules for a private medical-device distributor workflow.
+- Directed an AI-assisted implementation with staged review, deterministic gates, deduplication, audit logs, and scheduled research cycles.
+- The private deployment managed 613 distributor records and 1,689 contact records at the verified snapshot; only aggregate metrics are disclosed.
+- Published a standard-library Python reconstruction with fictional `.example` data and tests for high-risk data-quality rules.
+- No employer, product, market, company, contact, competitor, source, or live-sheet information is included.
+
 ## Additional technical work
 
 - Total and Updated Lagrangian user-element formulations for nonlinear cantilever bending in Abaqus.
@@ -53,9 +65,9 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 
 **Simulation:** Abaqus/Standard, COMSOL Multiphysics, finite element analysis, weak-form PDEs, coupled-field modelling, CFD, fluid-structure interaction, heat transfer, contact mechanics, large deformation
 
-**Programming and engineering tools:** Fortran, MATLAB, Arduino, LabVIEW, Siemens NX, Excel
+**Programming and engineering tools:** Python, Fortran, MATLAB, Arduino, LabVIEW, Siemens NX, Excel, Google Sheets
 
-**Delivery:** Technical product development, project leadership, technical documentation, workflow automation, research synthesis, cross-functional coordination, risk awareness, market and distributor research
+**Delivery:** Technical product development, project leadership, technical documentation, workflow automation, research synthesis, entity resolution, human-in-the-loop quality control, cross-functional coordination, risk awareness, market and distributor research
 
 ## Education
 
@@ -64,6 +76,6 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 
 ## Portfolio boundaries
 
-This repository contains sanitized university work and portfolio reconstructions only. It intentionally excludes confidential employer models, product information, solver databases, personal photographs, and unverified publication claims.
+This repository contains sanitized university work and portfolio reconstructions only. It intentionally excludes confidential employer models, operational source code, live spreadsheets, product information, company and contact records, solver databases, personal photographs, and unverified publication claims. The distributor-system case study uses fictional data and user-approved aggregate metrics only.
 
 See [Attribution and public-scope notes](ATTRIBUTION.md) for the ownership decisions behind the selected projects.

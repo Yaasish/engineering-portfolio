@@ -26,10 +26,18 @@ This portfolio separates individually attributable work from collaborative work 
 - Public firmware and analysis files are portfolio reconstructions of the documented workflow, not unmodified archival code.
 - Personal photographs from the original experiment are intentionally excluded.
 
+### Distributor discovery and qualification system
+
+- Yasamin Shahbazi defined the operational objective, qualification and ranking logic, evidence standards, contactability rules, review boundaries, and QA expectations through iterative project direction.
+- The private system was implemented and operated with AI-assisted engineering and research tools. The portfolio does not claim that every research action or line of private implementation code was completed manually.
+- The public Python pipeline is a new, generic portfolio reconstruction. It is not copied from the private implementation and performs no external research or outreach.
+- All public company and contact rows are fictional and use reserved `.example` domains.
+- The dated scale and throughput figures are aggregate snapshots verified from the private deployment. They reveal no employer, product, market, company, contact, competitor, or source identity.
+
 ## Collaborative work
 
 Load-cell testing, the larger Arduino/LabVIEW testing-machine workflow, and some shape-memory/auxetic studies were completed collaboratively. They are mentioned only as additional experience. Shared source archives, collaborator-only reports, and claims of sole ownership are not included.
 
 ## Employer work
 
-No employer source code, simulation model, product image, customer information, internal metric, or non-public company detail is included.
+No employer source code, simulation model, product image, customer information, live operational link, identifiable record, exact qualification criterion, or non-public company detail is included. The distributor case study reports only approved aggregate operating evidence and labels it with its verification date.
