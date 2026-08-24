@@ -1,0 +1,7 @@
+dataset_notice,restriction_coefficient,operating_flow_normalized,operating_pressure_normalized,temperature_rise_normalized,balance_residual
+Independent synthetic portfolio reconstruction; no employer data or results,0.350000,0.84959388,0.25263342,0.46307061,7.623e-13
+Independent synthetic portfolio reconstruction; no employer data or results,0.650000,0.76434800,0.37974811,0.48110493,1.077e-13
+Independent synthetic portfolio reconstruction; no employer data or results,1.000000,0.69186800,0.47868133,0.49868521,1.837e-13
+Independent synthetic portfolio reconstruction; no employer data or results,1.600000,0.60517395,0.58597681,0.52309480,1.787e-14
+Independent synthetic portfolio reconstruction; no employer data or results,2.400000,0.52863978,0.67070403,0.54849527,9.609e-13
+Independent synthetic portfolio reconstruction; no employer data or results,3.200000,0.47562461,0.72390006,0.56873989,9.612e-13

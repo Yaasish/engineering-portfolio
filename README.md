@@ -54,6 +54,18 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 - Published a standard-library Python reconstruction with fictional `.example` data and tests for high-risk data-quality rules.
 - No employer, product, market, company, contact, competitor, source, or live-sheet information is included.
 
+### 5. Forced-air thermal-management analysis workflow
+
+[View the independent synthetic reconstruction](projects/05-thermal-management/README.md)
+
+<img src="assets/thermal-management/fan-system-curves.svg" alt="Synthetic fan and system curves with solved operating points" width="800">
+
+- Created and documented private COMSOL CFD and conjugate heat-transfer analyses for an internal medical-device thermal-management subsystem.
+- Applied parametric studies, mesh-independence assessment, fan/system operating-point reasoning, and interpretation of pressure-loss and temperature trends.
+- Physical testing was performed by colleagues; I claim simulation and analysis only.
+- Published an independently built, AI-assisted Python demonstration using fictional dimensionless equations, synthetic data, and deterministic tests.
+- No employer geometry, values, models, reports, experiments, or product results are included.
+
 ## Additional technical work
 
 - Total and Updated Lagrangian user-element formulations for nonlinear cantilever bending in Abaqus.
@@ -76,6 +88,6 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 
 ## Portfolio boundaries
 
-This repository contains sanitized university work and portfolio reconstructions only. It intentionally excludes confidential employer models, operational source code, live spreadsheets, product information, company and contact records, solver databases, personal photographs, and unverified publication claims. The distributor-system case study uses fictional data and user-approved aggregate metrics only.
+This repository contains sanitized university work and independent portfolio reconstructions only. It intentionally excludes confidential employer models, operational source code, live spreadsheets, product information, company and contact records, solver databases, personal photographs, and unverified publication claims. The distributor-system case study uses fictional data and user-approved aggregate metrics only; the thermal-management case study uses fictional dimensionless equations and synthetic results only.
 
 See [Attribution and public-scope notes](ATTRIBUTION.md) for the ownership decisions behind the selected projects.

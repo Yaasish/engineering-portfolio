@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-label="Fan and system operating-point method">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="95" y="36" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#172033">Fan and system operating-point method</text>
+<text x="95" y="62" font-family="Arial, sans-serif" font-size="14" fill="#5b6475">Synthetic dimensionless demonstration — no employer data or results</text>
+<line x1="95.00" y1="115" x2="95.00" y2="445" stroke="#e3e7ee" stroke-width="1"/>
+<text x="95.00" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0</text>
+<line x1="287.50" y1="115" x2="287.50" y2="445" stroke="#e3e7ee" stroke-width="1"/>
+<text x="287.50" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0.25</text>
+<line x1="480.00" y1="115" x2="480.00" y2="445" stroke="#e3e7ee" stroke-width="1"/>
+<text x="480.00" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0.5</text>
+<line x1="672.50" y1="115" x2="672.50" y2="445" stroke="#e3e7ee" stroke-width="1"/>
+<text x="672.50" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0.75</text>
+<line x1="865.00" y1="115" x2="865.00" y2="445" stroke="#e3e7ee" stroke-width="1"/>
+<text x="865.00" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">1</text>
+<line x1="95" y1="445.00" x2="865" y2="445.00" stroke="#e3e7ee" stroke-width="1"/>
+<text x="82" y="449.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0</text>
+<line x1="95" y1="362.50" x2="865" y2="362.50" stroke="#e3e7ee" stroke-width="1"/>
+<text x="82" y="366.50" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0.25</text>
+<line x1="95" y1="280.00" x2="865" y2="280.00" stroke="#e3e7ee" stroke-width="1"/>
+<text x="82" y="284.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0.5</text>
+<line x1="95" y1="197.50" x2="865" y2="197.50" stroke="#e3e7ee" stroke-width="1"/>
+<text x="82" y="201.50" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">0.75</text>
+<line x1="95" y1="115.00" x2="865" y2="115.00" stroke="#e3e7ee" stroke-width="1"/>
+<text x="82" y="119.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#4a5365">1</text>
+<line x1="95" y1="445" x2="865" y2="445" stroke="#263248" stroke-width="1.5"/>
+<line x1="95" y1="115" x2="95" y2="445" stroke="#263248" stroke-width="1.5"/>
+<line x1="95" y1="88" x2="119" y2="88" stroke="#2563eb" stroke-width="3"/>
+<text x="126" y="92" font-family="Arial, sans-serif" font-size="12" fill="#263248">Synthetic fan curve</text>
+<polyline points="95.00,115.00 114.25,116.81 133.50,118.96 152.75,121.43 172.00,124.24 191.25,127.38 210.50,130.84 229.75,134.63 249.00,138.76 268.25,143.22 287.50,148.00 306.75,153.12 326.00,158.56 345.25,164.33 364.50,170.44 383.75,176.88 403.00,183.64 422.25,190.73 441.50,198.16 460.75,205.91 480.00,214.00 499.25,222.42 518.50,231.16 537.75,240.23 557.00,249.64 576.25,259.38 595.50,269.44 614.75,279.84 634.00,290.56 653.25,301.62 672.50,313.00 691.75,324.72 711.00,336.76 730.25,349.13 749.50,361.84 768.75,374.88 788.00,388.24 807.25,401.94 826.50,415.96 845.75,430.31 865.00,445.00" fill="none" stroke="#2563eb" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="276" y1="88" x2="300" y2="88" stroke="#16a34a" stroke-width="3"/>
+<text x="307" y="92" font-family="Arial, sans-serif" font-size="12" fill="#263248">Lower restriction</text>
+<polyline points="95.00,445.00 114.25,444.93 133.50,444.71 152.75,444.35 172.00,443.85 191.25,443.20 210.50,442.40 229.75,441.46 249.00,440.38 268.25,439.15 287.50,437.78 306.75,436.27 326.00,434.61 345.25,432.80 364.50,430.85 383.75,428.76 403.00,426.52 422.25,424.14 441.50,421.61 460.75,418.94 480.00,416.12 499.25,413.17 518.50,410.06 537.75,406.81 557.00,403.42 576.25,399.88 595.50,396.20 614.75,392.38 634.00,388.41 653.25,384.29 672.50,380.03 691.75,375.63 711.00,371.08 730.25,366.39 749.50,361.55 768.75,356.57 788.00,351.45 807.25,346.18 826.50,340.76 845.75,335.20 865.00,329.50" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="443" y1="88" x2="467" y2="88" stroke="#dc2626" stroke-width="3"/>
+<text x="474" y="92" font-family="Arial, sans-serif" font-size="12" fill="#263248">Higher restriction</text>
+<polyline points="95.00,445.00 114.25,444.34 133.50,442.36 152.75,439.06 172.00,434.44 191.25,428.50 210.50,421.24 229.75,412.66 249.00,402.76 268.25,391.54 287.50,379.00 306.75,365.14 326.00,349.96 345.25,333.46 364.50,315.64 383.75,296.50 403.00,276.04 422.25,254.26 441.50,231.16 460.75,206.74 480.00,181.00 499.25,153.94 518.50,125.56" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="629" cy="88" r="4.5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="648" y="92" font-family="Arial, sans-serif" font-size="12" fill="#263248">Solved intersections</text>
+<circle cx="749.19" cy="361.63" r="5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="461.23" cy="206.11" r="5" fill="#7c3aed" stroke="#ffffff" stroke-width="1.5"/>
+<text x="480.00" y="502" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#263248">Normalized airflow</text>
+<text x="22" y="280.00" text-anchor="middle" transform="rotate(-90 22 280.00)" font-family="Arial, sans-serif" font-size="14" fill="#263248">Normalized pressure</text>
+</svg>

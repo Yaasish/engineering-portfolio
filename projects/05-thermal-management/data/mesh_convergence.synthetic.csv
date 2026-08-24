@@ -1,0 +1,4 @@
+dataset_notice,grid,cell_count,relative_cell_size,monitored_temperature_normalized
+Independent synthetic portfolio reconstruction; no employer data or results,Coarse,12500,2.000000,0.85200000
+Independent synthetic portfolio reconstruction; no employer data or results,Medium,50000,1.000000,0.82800000
+Independent synthetic portfolio reconstruction; no employer data or results,Fine,200000,0.500000,0.82200000

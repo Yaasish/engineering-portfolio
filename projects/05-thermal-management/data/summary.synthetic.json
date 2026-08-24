@@ -1,0 +1,87 @@
+{
+  "checks": {
+    "fan_system_balance": true,
+    "fine_grid_gci_below_one_percent": true,
+    "flow_decreases_with_restriction": true,
+    "known_second_order_mesh_sequence_recovered": true,
+    "temperature_rise_increases_as_flow_falls": true
+  },
+  "dataset": "Independent synthetic portfolio reconstruction; no employer data or results",
+  "equations": {
+    "fan_pressure": "1 - 0.20 q - 0.80 q^2",
+    "synthetic_temperature_rise": "0.22 + 0.78 / (1 + 2.60 q)",
+    "system_pressure": "K q^2"
+  },
+  "mesh_convergence": {
+    "fine_grid_gci_percent": 0.3041362530413628,
+    "fine_to_medium_change_percent": 0.7299270072992707,
+    "levels": [
+      {
+        "cell_count": 12500,
+        "label": "Coarse",
+        "monitored_temperature_normalized": 0.852,
+        "relative_cell_size": 2.0
+      },
+      {
+        "cell_count": 50000,
+        "label": "Medium",
+        "monitored_temperature_normalized": 0.828,
+        "relative_cell_size": 1.0
+      },
+      {
+        "cell_count": 200000,
+        "label": "Fine",
+        "monitored_temperature_normalized": 0.822,
+        "relative_cell_size": 0.5
+      }
+    ],
+    "observed_order": 2.0,
+    "refinement_ratio": 2.0,
+    "richardson_extrapolated_value": 0.82
+  },
+  "restriction_sweep": [
+    {
+      "balance_residual": 7.622791287076325e-13,
+      "flow_normalized": 0.8495938795012989,
+      "pressure_normalized": 0.2526334160301237,
+      "restriction_coefficient": 0.35,
+      "temperature_rise_normalized": 0.4630706110561472
+    },
+    {
+      "balance_residual": 1.0769163338864018e-13,
+      "flow_normalized": 0.7643479981788914,
+      "pressure_normalized": 0.37974811050805113,
+      "restriction_coefficient": 0.65,
+      "temperature_rise_normalized": 0.48110492683448347
+    },
+    {
+      "balance_residual": 1.837419105754634e-13,
+      "flow_normalized": 0.6918680026151378,
+      "pressure_normalized": 0.47868133304266036,
+      "restriction_coefficient": 1.0,
+      "temperature_rise_normalized": 0.4986852110851543
+    },
+    {
+      "balance_residual": 1.787459069646502e-14,
+      "flow_normalized": 0.6051739456775067,
+      "pressure_normalized": 0.585976807243011,
+      "restriction_coefficient": 1.6,
+      "temperature_rise_normalized": 0.5230948009019517
+    },
+    {
+      "balance_residual": 9.60898027813073e-13,
+      "flow_normalized": 0.5286397770987605,
+      "pressure_normalized": 0.6707040334344653,
+      "restriction_coefficient": 2.4,
+      "temperature_rise_normalized": 0.5484952689858456
+    },
+    {
+      "balance_residual": 9.612310947204605e-13,
+      "flow_normalized": 0.4756246098622796,
+      "pressure_normalized": 0.7239000624212663,
+      "restriction_coefficient": 3.2,
+      "temperature_rise_normalized": 0.5687398887820362
+    }
+  ],
+  "scope": "Dimensionless workflow demonstration; not a CFD solve or an experimental-validation package"
+}

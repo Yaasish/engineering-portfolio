@@ -53,12 +53,19 @@ FORBIDDEN_TEXT = {
 
 REQUIRED_PUBLIC_FILES = {
     Path("assets/distributor-qualification/workflow.svg"),
+    Path("assets/thermal-management/fan-system-curves.svg"),
+    Path("assets/thermal-management/restriction-sweep.svg"),
     Path("projects/01-hydrogel-multiphysics/code/HydrogelModelDefinition.java"),
     Path("projects/01-hydrogel-multiphysics/MODEL_AUDIT.md"),
     Path("projects/04-distributor-qualification/data/companies.synthetic.csv"),
     Path("projects/04-distributor-qualification/data/contacts.synthetic.csv"),
     Path("projects/04-distributor-qualification/src/distributor_pipeline.py"),
     Path("projects/04-distributor-qualification/tests/test_distributor_pipeline.py"),
+    Path("projects/05-thermal-management/data/mesh_convergence.synthetic.csv"),
+    Path("projects/05-thermal-management/data/restriction_sweep.synthetic.csv"),
+    Path("projects/05-thermal-management/data/summary.synthetic.json"),
+    Path("projects/05-thermal-management/src/thermal_workflow.py"),
+    Path("projects/05-thermal-management/tests/test_thermal_workflow.py"),
 }
 
 MARKDOWN_LINK = re.compile(r"!?\[[^\]]*\]\(([^)]+)\)")
@@ -124,6 +131,23 @@ def check_synthetic_distributor_data() -> list[str]:
     return errors
 
 
+def check_synthetic_thermal_data() -> list[str]:
+    errors: list[str] = []
+    data_dir = ROOT / "projects/05-thermal-management/data"
+    for path in sorted(data_dir.glob("*")):
+        if not path.is_file():
+            continue
+        if ".synthetic." not in path.name:
+            errors.append(f"thermal data is not labelled synthetic: {path.relative_to(ROOT)}")
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace").casefold()
+        if "synthetic" not in text or "no employer data or results" not in text:
+            errors.append(
+                f"thermal data lacks the required privacy notice: {path.relative_to(ROOT)}"
+            )
+    return errors
+
+
 def _local_target(raw_target: str) -> str | None:
     target = unquote(raw_target.strip().split()[0].strip("<>"))
     if target.startswith(("http://", "https://", "mailto:", "#")):
@@ -164,6 +188,7 @@ def main() -> int:
     errors.extend(check_excluded_files(files))
     errors.extend(check_private_text(files))
     errors.extend(check_synthetic_distributor_data())
+    errors.extend(check_synthetic_thermal_data())
     errors.extend(check_links(files))
 
     if errors:

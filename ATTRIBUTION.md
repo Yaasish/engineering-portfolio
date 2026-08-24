@@ -34,10 +34,18 @@ This portfolio separates individually attributable work from collaborative work 
 - All public company and contact rows are fictional and use reserved `.example` domains.
 - The dated scale and throughput figures are aggregate snapshots verified from the private deployment. They reveal no employer, product, market, company, contact, competitor, or source identity.
 
+### Forced-air thermal-management analysis workflow
+
+- Yasamin Shahbazi created and documented the private COMSOL CFD and conjugate heat-transfer simulation work represented by the generic capability description.
+- Colleagues performed the associated physical testing. The portfolio claims simulation, analysis, and reporting only—not experimental execution or validation by Yasamin.
+- The public Python source, equations, datasets, and SVG figures are a new AI-assisted portfolio reconstruction. They do not reproduce the private model or results.
+- All public values are fictional and dimensionless. The known mesh sequence was constructed specifically to test the convergence-analysis implementation.
+- Employer models, reports, geometry, meshes, materials, boundary conditions, fan specifications, operating values, test evidence, and product details are excluded.
+
 ## Collaborative work
 
 Load-cell testing, the larger Arduino/LabVIEW testing-machine workflow, and some shape-memory/auxetic studies were completed collaboratively. They are mentioned only as additional experience. Shared source archives, collaborator-only reports, and claims of sole ownership are not included.
 
 ## Employer work
 
-No employer source code, simulation model, product image, customer information, live operational link, identifiable record, exact qualification criterion, or non-public company detail is included. The distributor case study reports only approved aggregate operating evidence and labels it with its verification date.
+No employer source code, simulation model, product image, customer information, live operational link, identifiable record, exact qualification criterion, or non-public company detail is included. The distributor case study reports only approved aggregate operating evidence and labels it with its verification date. The thermal-management case study publishes only an independent synthetic reconstruction and explicitly separates Yasamin's simulation work from experiments performed by colleagues.

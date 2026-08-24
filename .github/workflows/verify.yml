@@ -31,5 +31,12 @@ jobs:
           --companies projects/04-distributor-qualification/data/companies.synthetic.csv
           --contacts projects/04-distributor-qualification/data/contacts.synthetic.csv
           --output-dir "$RUNNER_TEMP/distributor-demo"
+      - name: Run thermal-workflow tests
+        run: python -m unittest discover -s projects/05-thermal-management/tests -v
+      - name: Run synthetic thermal workflow
+        run: >-
+          python projects/05-thermal-management/src/thermal_workflow.py
+          --output-dir "$RUNNER_TEMP/thermal-demo/data"
+          --asset-dir "$RUNNER_TEMP/thermal-demo/assets"
       - name: Check links, privacy, and excluded artefacts
         run: python scripts/check_portfolio.py

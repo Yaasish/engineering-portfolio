@@ -29,6 +29,15 @@ This repository is the public engineering portfolio. Use this checklist before f
 - Do not claim hours saved until a comparable manual baseline and review-time sample have been recorded.
 - Run the synthetic end-to-end tests and privacy checker before publishing.
 
+## Thermal-management release gates
+
+- Keep the public project dimensionless, synthetic, and independent of private geometry, parameters, meshes, figures, and results.
+- Do not upload the original COMSOL model, report, screenshots, CAD, fan data, parametric spreadsheets, or physical-test records.
+- Attribute physical testing to colleagues and claim simulation and analysis only.
+- Describe the public Python implementation as AI-assisted and as a reduced-order workflow demonstration, not a CFD solver.
+- Do not replace the synthetic equations or mesh sequence with private values, even after removing project names.
+- Run the thermal tests, regenerate the synthetic outputs, and run the privacy checker before publishing.
+
 ## Make the links useful for applications
 
 1. Pin the portfolio repository on the GitHub profile.
@@ -39,6 +48,6 @@ This repository is the public engineering portfolio. Use this checklist before f
 
 ## Recommended project order by role
 
-- Simulation or computational-mechanics role: hydrogel, UMAT/auxetic, ultrasonic prototype.
-- Biomedical or medical-device R&D role: hydrogel, ultrasonic prototype, UMAT/auxetic.
-- Product, project, innovation, or engineering-operations role: distributor qualification, hydrogel, ultrasonic prototype, UMAT/auxetic.
+- Simulation or computational-mechanics role: hydrogel, thermal management, UMAT/auxetic, ultrasonic prototype.
+- Biomedical or medical-device R&D role: hydrogel, thermal management, ultrasonic prototype, UMAT/auxetic.
+- Product, project, innovation, or engineering-operations role: distributor qualification, thermal management, hydrogel, ultrasonic prototype, UMAT/auxetic.
