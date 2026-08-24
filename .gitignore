@@ -1,0 +1,35 @@
+# Proprietary and large solver artefacts
+*.cae
+*.com
+*.dat
+*.ipm
+*.jnl
+*.lck
+*.log
+*.msg
+*.mph
+*.odb
+*.pac
+*.pes
+*.prt
+*.res
+*.rpy*
+*.sim
+*.sta
+*.stt
+
+# Local environments and caches
+.DS_Store
+.idea/
+.pytest_cache/
+.venv/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Personal working material
+private/
+raw/
+*.docx
+*.pdf
+

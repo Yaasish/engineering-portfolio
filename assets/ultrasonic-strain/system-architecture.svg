@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Ultrasonic strain measurement system</title>
+  <desc id="desc">An ultrasonic sensor measures specimen length, an Arduino records distance and time, and Python calculates finite strain.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#244d72"/>
+    </marker>
+    <style>
+      .title { font: 700 28px Arial, sans-serif; fill: #173a5e; }
+      .label { font: 700 22px Arial, sans-serif; fill: #173a5e; }
+      .body { font: 18px Arial, sans-serif; fill: #2a333c; }
+      .box { fill: #f7fafc; stroke: #7f9db7; stroke-width: 3; rx: 18; }
+      .accent { fill: #dcebf5; stroke: #244d72; stroke-width: 3; }
+      .flow { fill: none; stroke: #244d72; stroke-width: 4; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1200" height="460" fill="#ffffff"/>
+  <text x="600" y="52" text-anchor="middle" class="title">Ultrasonic finite-strain measurement workflow</text>
+
+  <rect x="55" y="110" width="300" height="250" class="box"/>
+  <rect x="125" y="145" width="160" height="48" rx="10" class="accent"/>
+  <circle cx="172" cy="169" r="14" fill="#244d72"/>
+  <circle cx="238" cy="169" r="14" fill="#244d72"/>
+  <line x1="205" y1="195" x2="205" y2="310" stroke="#244d72" stroke-width="4" stroke-dasharray="8 7"/>
+  <path d="M155 230 L255 230 L238 310 L172 310 Z" fill="#eef4f8" stroke="#5f7f99" stroke-width="3"/>
+  <text x="205" y="338" text-anchor="middle" class="label">Sensor + specimen</text>
+  <text x="205" y="385" text-anchor="middle" class="body">Distance tracks current length</text>
+
+  <path d="M370 235 L465 235" class="flow"/>
+
+  <rect x="480" y="150" width="250" height="170" class="box"/>
+  <rect x="535" y="185" width="140" height="70" rx="8" class="accent"/>
+  <circle cx="555" cy="275" r="7" fill="#4d9f63"/>
+  <text x="605" y="230" text-anchor="middle" class="label">Arduino Uno</text>
+  <text x="605" y="355" text-anchor="middle" class="body">Timestamp + distance (mm)</text>
+
+  <path d="M745 235 L840 235" class="flow"/>
+
+  <rect x="855" y="110" width="290" height="250" class="box"/>
+  <polyline points="905,285 945,250 990,265 1035,190 1095,150" fill="none" stroke="#4d86b6" stroke-width="5"/>
+  <line x1="900" y1="300" x2="1105" y2="300" stroke="#7f9db7" stroke-width="2"/>
+  <line x1="900" y1="155" x2="900" y2="300" stroke="#7f9db7" stroke-width="2"/>
+  <text x="1000" y="338" text-anchor="middle" class="label">Python analysis</text>
+  <text x="1000" y="385" text-anchor="middle" class="body">Stretch ratio and Green-Lagrange strain</text>
+
+  <text x="600" y="430" text-anchor="middle" class="body">Explicit units, calibration assumptions, and uncertainty limits</text>
+</svg>
+
