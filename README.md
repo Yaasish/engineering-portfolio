@@ -1,10 +1,10 @@
 # Yasamin Shahbazi
 
-Computational Mechanics Engineer | Medical Device R&D | Technical Project & Operations Lead
+Computational & R&D Engineer | Medical-Device Innovation | Technical Product & Operations
 
 [LinkedIn](https://www.linkedin.com/in/yasaminshahbazi/) | [Email](mailto:yasaminshahbazzi@gmail.com) | Tehran, Iran | Open to relocation to Spain
 
-I work across finite element analysis, CFD, multiphysics modelling, computational biomechanics, and cross-functional engineering delivery. My strongest projects combine first-principles modelling with practical prototyping, validation-aware analysis, and clear technical communication.
+I use computational mechanics and multiphysics modelling to support medical-device and advanced-engineering product development. My work connects first-principles simulation, instrumentation and prototyping, validation-aware analysis, automation, and cross-functional delivery—positioning me for industrial R&D, product-development, and technical-innovation roles.
 
 ## Selected engineering work
 
@@ -55,12 +55,12 @@ I work across finite element analysis, CFD, multiphysics modelling, computationa
 
 **Programming and engineering tools:** Fortran, MATLAB, Arduino, LabVIEW, Siemens NX, Excel
 
-**Delivery:** Technical documentation, workflow automation, research synthesis, cross-functional coordination, risk awareness, market and distributor research
+**Delivery:** Technical product development, project leadership, technical documentation, workflow automation, research synthesis, cross-functional coordination, risk awareness, market and distributor research
 
 ## Education
 
 - Bachelor of Engineering in Biomedical Engineering, Islamic Azad University, Central Tehran Branch
-- Graduate studies in Materials Science and Engineering, K. N. Toosi University of Technology - coursework completed and thesis submitted; degree not awarded
+- Graduate studies at K. N. Toosi University of Technology - coursework completed and thesis submitted; degree not awarded
 
 ## Portfolio boundaries
 

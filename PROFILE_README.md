@@ -1,9 +1,10 @@
 # Hi, I'm Yasamin Shahbazi
 
-I am a computational mechanics engineer and technical project lead working across medical-device R&D, finite element analysis, multiphysics modelling, and engineering operations.
+I am a computational and R&D engineer working across medical-device innovation, finite element analysis, multiphysics modelling, product development, and technical operations.
 
 - I use Abaqus, COMSOL Multiphysics, Siemens NX, MATLAB, Fortran, Arduino, and LabVIEW.
 - I enjoy learning unfamiliar tools quickly and turning them into practical engineering workflows.
+- I connect engineering analysis with product development, validation, and business decisions.
 - I am based in Tehran and open to relocation to Spain.
 
 ## Featured work
