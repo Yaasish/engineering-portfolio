@@ -49,6 +49,16 @@ FORBIDDEN_TEXT = {
     "docs.google.com/spreadsheets/d/",
     "weekly-live-distributor-discovery",
     "files-mentioned-by-the-user-distributor",
+    "60-degree angle",
+    "1 mm ligament thickness",
+    "13 mm internal span",
+    "8 mm imposed compression",
+    "under 8 mm compression",
+}
+
+FORBIDDEN_PUBLIC_PATHS = {
+    Path("assets/umat-auxetic/reentrant-cell-geometry.png"),
+    Path("assets/umat-auxetic/auxetic-compression.gif"),
 }
 
 REQUIRED_PUBLIC_FILES = {
@@ -89,6 +99,14 @@ def check_required_files() -> list[str]:
         f"required public artefact missing: {path}"
         for path in sorted(REQUIRED_PUBLIC_FILES)
         if not (ROOT / path).is_file()
+    ]
+
+
+def check_forbidden_paths() -> list[str]:
+    return [
+        f"shared auxetic artefact must not be public: {path}"
+        for path in sorted(FORBIDDEN_PUBLIC_PATHS)
+        if (ROOT / path).exists()
     ]
 
 
@@ -185,6 +203,7 @@ def main() -> int:
     files = iter_files()
     errors = []
     errors.extend(check_required_files())
+    errors.extend(check_forbidden_paths())
     errors.extend(check_excluded_files(files))
     errors.extend(check_private_text(files))
     errors.extend(check_synthetic_distributor_data())

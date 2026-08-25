@@ -13,11 +13,13 @@ This portfolio separates individually attributable work from collaborative work 
 - The public Java file is a solver-independent manifest curated from Yasamin Shahbazi's private COMSOL export. It is not a runnable model or a substitute for convergence evidence.
 - The raw COMSOL history, model file, cached solutions, and machine-specific paths are excluded.
 
-### Hyperelastic ABS UMAT and auxetic model
+### Hyperelastic ABS UMAT and collaborative auxetic application
 
-- The project report identifies Yasamin Shahbazi as its author.
+- The UMAT coursework report identifies Yasamin Shahbazi as its author.
 - Material parameters and comparison data came from the cited published paper.
 - The public Fortran file is a sanitized coursework copy. A separately credited matrix-inversion routine was removed and replaced.
+- The auxetic application was completed with one collaborator as a two-person university project.
+- Shared auxetic geometry, design parameters, meshes, and simulation results are excluded, and no sole-authorship claim is made for that application.
 - Proprietary Abaqus databases, journals, and full course archives are excluded.
 
 ### Ultrasonic strain prototype
@@ -44,7 +46,7 @@ This portfolio separates individually attributable work from collaborative work 
 
 ## Collaborative work
 
-Load-cell testing, the larger Arduino/LabVIEW testing-machine workflow, and some shape-memory/auxetic studies were completed collaboratively. They are mentioned only as additional experience. Shared source archives, collaborator-only reports, and claims of sole ownership are not included.
+Load-cell testing, the larger Arduino/LabVIEW testing-machine workflow, shape-memory studies, and the two-person auxetic project were completed collaboratively. They are mentioned only as additional experience. Shared source archives, collaborator-only reports, geometry, design parameters, results, and claims of sole ownership are not included.
 
 ## Employer work
 

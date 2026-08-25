@@ -2,7 +2,7 @@
 
 Computational & R&D Engineer | Medical-Device Innovation | Technical Product & Operations
 
-[LinkedIn](https://www.linkedin.com/in/yasaminshahbazi/) | [Email](mailto:yasaminshahbazzi@gmail.com) | Tehran, Iran | Open to relocation to Spain
+[LinkedIn](https://www.linkedin.com/in/yasaminshahbazi/) | [Email](mailto:yasaminshahbazzi@gmail.com)
 
 I use computational mechanics and multiphysics modelling to support medical-device and advanced-engineering product development. My work connects first-principles simulation, instrumentation and prototyping, validation-aware analysis, automation, and cross-functional delivery—positioning me for industrial R&D, product-development, and technical-innovation roles.
 
@@ -21,15 +21,14 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 - Extended the model to compression and tension loading and evaluated displacement, ion concentration, volume change, electric potential, and resistance trends.
 - Benchmarked the computational behaviour against published literature; no experimental validation is claimed.
 
-### 2. Hyperelastic ABS UMAT and re-entrant auxetic compression
+### 2. Hyperelastic ABS UMAT with a collaborative auxetic application
 
 [View the case study and sanitized Fortran](projects/02-abaqus-umat-auxetic/README.md)
 
-<img src="assets/umat-auxetic/auxetic-compression.gif" alt="Abaqus simulation of a re-entrant auxetic ABS structure under compression" width="520">
-
 - Implemented a polynomial hyperelastic material model as an Abaqus/Standard UMAT.
 - Compared the implementation with published tensile data and Abaqus' native hyperelastic model.
-- Applied the material model to a re-entrant auxetic structure under 8 mm compression.
+- Contributed to an auxetic application in a two-person university project.
+- Withheld the shared geometry, design parameters, meshes, and auxetic simulation results.
 - Removed proprietary solver files and replaced an externally credited helper routine in the public code copy.
 
 ### 3. Arduino ultrasonic strain-measurement prototype
@@ -71,7 +70,7 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 - Total and Updated Lagrangian user-element formulations for nonlinear cantilever bending in Abaqus.
 - Hyperelastic and hyper-viscoelastic UMAT studies, including penalty-based incompressibility and Prony-series relaxation.
 - Team-based Arduino, HX711, load-cell, stepper-motor, and LabVIEW workflows for compression, tension, relaxation, and load-unload testing.
-- Shape-memory and auxetic polymer-structure modelling in collaborative university projects.
+- Shape-memory modelling and a two-person auxetic university project; shared auxetic geometry and results are not published.
 
 ## Technical toolkit
 

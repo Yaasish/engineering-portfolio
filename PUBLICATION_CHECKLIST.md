@@ -19,6 +19,13 @@ This repository is the public engineering portfolio. Use this checklist before f
 - Complete mesh and time-step convergence checks before publishing a reproducibility claim.
 - Regenerate figures from the cleaned model before describing the public source as a result-reproduction package.
 
+## Auxetic-project release gates
+
+- Attribute the auxetic application as a two-person university project.
+- Do not publish the shared geometry, design parameters, meshes, screenshots, animations, force-displacement curves, or other auxetic simulation results.
+- Keep the individually attributable UMAT implementation separate from the collaborative auxetic application.
+- Ask the collaborator before expanding the public scope.
+
 ## Distributor-system release gates
 
 - Publish synthetic `.example` records only; never copy rows from the live spreadsheet or private exports.
@@ -48,6 +55,6 @@ This repository is the public engineering portfolio. Use this checklist before f
 
 ## Recommended project order by role
 
-- Simulation or computational-mechanics role: hydrogel, thermal management, UMAT/auxetic, ultrasonic prototype.
-- Biomedical or medical-device R&D role: hydrogel, thermal management, ultrasonic prototype, UMAT/auxetic.
-- Product, project, innovation, or engineering-operations role: distributor qualification, thermal management, hydrogel, ultrasonic prototype, UMAT/auxetic.
+- Simulation or computational-mechanics role: hydrogel, thermal management, UMAT, ultrasonic prototype; mention the collaborative auxetic application without shared results.
+- Biomedical or medical-device R&D role: hydrogel, thermal management, ultrasonic prototype, UMAT; mention the collaborative auxetic application without shared results.
+- Product, project, innovation, or engineering-operations role: distributor qualification, thermal management, hydrogel, ultrasonic prototype, UMAT.
