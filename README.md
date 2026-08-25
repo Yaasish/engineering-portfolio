@@ -83,7 +83,7 @@ I use computational mechanics and multiphysics modelling to support medical-devi
 ## Education
 
 - Bachelor of Engineering in Biomedical Engineering, Islamic Azad University, Central Tehran Branch
-- Graduate studies at K. N. Toosi University of Technology - coursework completed and thesis submitted; degree not awarded
+- Graduate studies at K. N. Toosi University of Technology - completed and passed all coursework and submitted a research thesis, then chose to leave the programme before formal degree completion
 
 ## Portfolio boundaries
 
